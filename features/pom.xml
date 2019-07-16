@@ -63,6 +63,10 @@
                             <descriptors>
                                 <descriptor>mvn:org.apache.karaf.features/framework/${karaf-version}/xml/features</descriptor>
                                 <descriptor>mvn:org.apache.karaf.features/standard/${karaf-version}/xml/features</descriptor>
+                                <descriptor>mvn:hu.blackbelt.karaf.features/javax-features/${javax-karaf-features-version}/xml/features</descriptor>
+                                <descriptor>mvn:hu.blackbelt.karaf.features/apache-commons-features/${apache-commons-karaf-features-version}/xml/features</descriptor>
+                                <descriptor>mvn:hu.blackbelt.karaf.features/bouncycastle-features/${bouncycastle-karaf-features-version}/xml/features</descriptor>
+                                <descriptor>mvn:hu.blackbelt.karaf.features/apache-poi-features/${apache-poi-karaf-features-version}/xml/features</descriptor>
                                 <descriptor>file:${project.build.directory}/feature/feature.xml</descriptor>
                             </descriptors>
                             <distribution>org.apache.karaf.features:framework</distribution>
@@ -72,7 +76,7 @@
                                 <feature>shell-compat</feature>
                             </framework>
                             <features>
-                                <feature>tinybundles</feature>
+                                <feature>jxls</feature>
                             </features>
                         </configuration>
                     </execution>
@@ -96,6 +100,38 @@
             <type>xml</type>
             <scope>runtime</scope>
             <version>${karaf-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>hu.blackbelt.karaf.features</groupId>
+            <artifactId>javax-features</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+            <scope>runtime</scope>
+            <version>${javax-karaf-features-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>hu.blackbelt.karaf.features</groupId>
+            <artifactId>apache-commons-features</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+            <scope>runtime</scope>
+            <version>${apache-commons-karaf-features-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>hu.blackbelt.karaf.features</groupId>
+            <artifactId>bouncycastle-features</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+            <scope>runtime</scope>
+            <version>${bouncycastle-karaf-features-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>hu.blackbelt.karaf.features</groupId>
+            <artifactId>apache-poi-features</artifactId>
+            <classifier>features</classifier>
+            <type>xml</type>
+            <scope>runtime</scope>
+            <version>${apache-poi-karaf-features-version}</version>
         </dependency>
 
     </dependencies>

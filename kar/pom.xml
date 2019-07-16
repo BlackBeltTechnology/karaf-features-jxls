@@ -4,13 +4,13 @@
     
     <parent>
         <groupId>hu.blackbelt.karaf.features</groupId>
-        <artifactId>jooq</artifactId>
-        <version>3.11.12-SNAPSHOT</version>
+        <artifactId>jxls</artifactId>
+        <version>2.6.0-SNAPSHOT</version>
         <relativePath>../</relativePath>
     </parent>
-    <artifactId>jooq-kar</artifactId>
+    <artifactId>jxls-kar</artifactId>
     <packaging>kar</packaging>
-    <name>JOOQ Karaf KAR assembly</name>
+    <name>JXLS Karaf KAR assembly</name>
 
     <build>
         <plugins>
