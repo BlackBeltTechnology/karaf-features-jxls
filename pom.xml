@@ -9,9 +9,9 @@
 
     <properties>
         <karaf-version>4.2.5</karaf-version>
-        <bouncycastle-karaf-features-version>1.61.3.20191112_145528_65f6ec3_develop</bouncycastle-karaf-features-version>
-        <apache-commons-karaf-features-version>1.0.6.20191112_150120_8396e08_develop</apache-commons-karaf-features-version>
-        <apache-poi-karaf-features-version>1.0.3.20200111_213125_a8284fb_develop</apache-poi-karaf-features-version>
+        <bouncycastle-karaf-features-version>1.61.2</bouncycastle-karaf-features-version>
+        <apache-commons-karaf-features-version>1.0.5</apache-commons-karaf-features-version>
+        <apache-poi-karaf-features-version>1.0.2</apache-poi-karaf-features-version>
     </properties>
 
     <description>JXLS Karaf features</description>
