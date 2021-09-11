@@ -3,15 +3,15 @@
 
     <groupId>hu.blackbelt.karaf.features</groupId>
     <artifactId>jxls</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.2-SNAPSHOT</version>
     <name>JXLS karaf feature project</name>
     <packaging>pom</packaging>
 
     <properties>
-        <karaf-version>4.2.5</karaf-version>
+        <karaf-version>4.2.9</karaf-version>
         <bouncycastle-karaf-features-version>1.61.2</bouncycastle-karaf-features-version>
-        <apache-commons-karaf-features-version>1.0.5</apache-commons-karaf-features-version>
-        <apache-poi-karaf-features-version>1.0.2</apache-poi-karaf-features-version>
+        <apache-commons-karaf-features-version>1.0.6</apache-commons-karaf-features-version>
+        <apache-poi-karaf-features-version>1.0.3</apache-poi-karaf-features-version>
     </properties>
 
     <description>JXLS Karaf features</description>
