@@ -4,11 +4,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://karaf.apache.org/xmlns/features/v1.5.0 http://karaf.apache.org/xmlns/features/v1.5.0">
 
-    <feature name="jxls" version="2.6.0" description="JXLS" install="false">
+    <feature name="jxls" version="2.10.0" description="JXLS" install="false">
         <feature>apache-jexl3</feature>
-        <feature>apache-poi3</feature>
+        <feature>apache-poi4</feature>
         <feature>apache-commons-beanutils</feature>
         <bundle>mvn:ch.qos.logback/logback-core/1.2.3</bundle>
-        <bundle>mvn:hu.blackbelt.bundles.jxls/org.jxls/2.6.0_2</bundle>
+        <bundle>mvn:hu.blackbelt.bundles.jxls/org.jxls/2.10.0_1</bundle>
     </feature>
 </features>
