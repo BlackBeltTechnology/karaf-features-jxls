@@ -11,7 +11,7 @@
         <karaf-version>4.2.9</karaf-version>
         <bouncycastle-karaf-features-version>1.61.2</bouncycastle-karaf-features-version>
         <apache-commons-karaf-features-version>1.0.6</apache-commons-karaf-features-version>
-        <apache-poi-karaf-features-version>1.0.3</apache-poi-karaf-features-version>
+        <apache-poi-karaf-features-version>1.0.4</apache-poi-karaf-features-version>
     </properties>
 
     <description>JXLS Karaf features</description>
