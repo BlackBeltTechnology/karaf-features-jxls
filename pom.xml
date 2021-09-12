@@ -3,7 +3,7 @@
 
     <groupId>hu.blackbelt.karaf.features</groupId>
     <artifactId>jxls</artifactId>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>1.0.2</version>
     <name>JXLS karaf feature project</name>
     <packaging>pom</packaging>
 
